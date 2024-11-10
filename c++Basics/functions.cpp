@@ -3,6 +3,9 @@
 #include <string>
 #include <vector>
 
+// the name of the functions can be same as long as the arguments are different
+// the rerurn type alone is not sufficient to distinguish between two functions
+// of same name their arguments have to be different to distinguish them
 // this creates a function called printHelloWorld
 void printHelloWorld() { // it is called function signature
   // body of the function
