@@ -3,6 +3,7 @@
 #include <iostream>
 #include <vector>
 
+// a function definition
 std::vector<int> generateRandomNumbers(int range) {
   std::vector<int> randomNumbers;
   std::srand(std::time(nullptr));
