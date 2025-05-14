@@ -2,9 +2,9 @@
 
 #include <iostream>
 #include <map>
+#include <math.h>
 #include <string>
 #include <vector>
-
 int main(int argc, char *argv[]) {
   std::vector<std::string>
       names; // In this arrangement we have to make sure that indices of names
