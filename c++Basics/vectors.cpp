@@ -10,7 +10,7 @@ int main(int argc, char *argv[]) {
   // {...} is called initilaizer list
   std::vector<int> IDV = {123, 432, 523, 564};
 
-  std::cout << "The first element of IDS is: " << IDA[0] << "\n";
+  std::cout << "The first element of IDA is: " << IDA[0] << "\n";
   std::cout << "The first element of IDV is: " << IDV[0] << "\n";
   std::cout << "The last element of IDA is: "
             << IDV[sizeof(IDA) / sizeof(int) - 1] << "\n";
